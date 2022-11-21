@@ -1,9 +1,9 @@
-#Class Constructors & Named Arguments
+# Class Constructors & Named Arguments
 
 In this lab you will learn:
-What a constructor is
-How to use a constructor to pass information from the main program into the class
-How to use named arguments 
+- What a constructor is
+- How to use a constructor to pass information from the main program into the class
+- How to use named arguments 
 
 
 In our previous lesson, the class Person, was initialized with some data. But it would make more sense that we pass the property values to the class when we instantiate the class (Create a new object based on the class). To do this, we need to add a ‘constructor’ to the class. A constructor is a method (a function) inside of the class that executes once when the class is instantiated.
@@ -38,7 +38,7 @@ class Person {
 }
 ```
 
-##Named Arguments
+## Named Arguments
 
 If you recall placeholders in C, the values that went into the placeholders had to be in order.  This is called using positional arguments.  If you get more than a few arguments, the organization can get really confusing.  There is an alternative method that uses named arguments.  Using this method, you name the argument value when you instantiate the object.
 
@@ -90,7 +90,7 @@ void main() {
 ```
 
 
-##Shortening Up the Code
+## Shortening Up the Code
 
 Because creating a constructor is so common, dart actually has some shorthand notation you can use.  You can create the above constructor by shortening it to the following format:
 
@@ -120,13 +120,13 @@ void main() {
   }
 ```
 
-##Your Turn
+## Your Turn
 
 Using dartpad.dev, create a class that is for an extra value meal at a fast food restaurant.  The class you create should have a property for sandwich type, drink, and side.  Write a constructor for the class. In your main program, instantiate 3 objects, and print the value of those objects to the screen.  
 
 Also, Answer the review questions below.
 
-##Submit Your Work
+## Submit Your Work
 
 ##Review Questions:
 What is a class?
@@ -147,6 +147,7 @@ Use an analogy to explain how a property of a class can be a class.
 
 
 ***Highlight all of your code, and copy it to the clipboard by pressing ctrl a, ctrl c.  Sometimes when you log into your github account, your code gets cleared out of dartpad.dev***
+
 Log in to your github account by clicking on the icon in the top right corner of the screen. 
 Click on the user icon, and pick create public gist.
 Go to github.com, and click on ‘your gists’.
