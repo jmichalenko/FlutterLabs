@@ -130,17 +130,17 @@ Also, Answer the review questions below.
 
 ## Review Questions:
 
-What is a class?
+#1 What is a class?
 
-What is a property?
+#2 What is a property?
 
-What is a method?
+#3 What is a method?
 
-What is a constructor?
+#4 What is a constructor?
 
-What is the difference between a positional argument and a named argument?
+#5 What is the difference between a positional argument and a named argument?
 
-Use an analogy to explain how a property of a class can be a class.
+#6 Use an analogy to explain how a property of a class can be a class.
 
 ## Paste the Url to your public Gist here:
 
