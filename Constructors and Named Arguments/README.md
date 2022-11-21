@@ -12,7 +12,7 @@ To add a constructor in dart you repeat the name of the class at the bottom, and
 
 For example we could modify the class from our previous lesson, by adding the constructor.
 
-```
+```dart
 class Person {
   String name;
   int age;
