@@ -128,7 +128,8 @@ Also, Answer the review questions below.
 
 ## Submit Your Work
 
-##Review Questions:
+## Review Questions:
+
 What is a class?
 
 What is a property?
@@ -141,7 +142,7 @@ What is the difference between a positional argument and a named argument?
 
 Use an analogy to explain how a property of a class can be a class.
 
-##Paste the Url to your public Gist here:
+## Paste the Url to your public Gist here:
 
 
 
