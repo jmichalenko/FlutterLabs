@@ -26,7 +26,7 @@ Person(inputName, inputAge){
 
 In newer versions of dart, we will get a **null value** error.  Dart doesn’t like that the values for the properties are ‘null’ or empty.  To change this we, add a ? after the data type when we declare the variable. This is called a **future**.
 
-```
+```dart
 class Person {
   String? name;
   int? age;
@@ -42,7 +42,7 @@ class Person {
 
 If you recall placeholders in C, the values that went into the placeholders had to be in order.  This is called using **positional arguments**.  If you get more than a few arguments, the organization can get really confusing.  There is an alternative method that uses **named arguments**.  Using this method, you name the argument value when you instantiate the object.
 
-```
+```dart
 var p1 = Person(inputName:'Max', inputAge: 16);
 Try running the following code in dartpad.dev:
 
@@ -68,7 +68,7 @@ void main() {
 
 Just like a function, you don’t need to use the same parameter names when you construct the class.  Even though you don’t have to, you can use the same name in the constructor as the property name of the class by using the **this dot** method.  For example, the above code could be modified to this:
 
-```
+```dart
 class Person {
   String? name;
   int? age;
@@ -94,14 +94,14 @@ void main() {
 
 Because creating a constructor is so common, dart actually has some shorthand notation you can use.  You can create the above constructor by shortening it to the following format:
 
-```
+```dart
 Person({this.name, this.age});
   } 
 ```
 
 So the entire program would look like this:
 
-```
+```dart
 class Person {
   String? name;
   int? age;
