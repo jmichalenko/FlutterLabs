@@ -96,7 +96,6 @@ Because creating a constructor is so common, dart actually has some shorthand no
 
 ```dart
 Person({this.name, this.age});
-  } 
 ```
 
 So the entire program would look like this:
